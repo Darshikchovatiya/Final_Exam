@@ -55,7 +55,7 @@ export const pro_updateAsync = (id,data) => {
     return dispatch => {
         axios.patch(base_api + `/Products/${id}`, data).then((res) => {
             // console.log("Res",res.data);
-            dispatch(get_all_proAsync(res.data));
+            dispatch(get_all_proAsync());
 
         }).catch((err) => {
             console.log(err, "err");
