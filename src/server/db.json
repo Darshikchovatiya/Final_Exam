@@ -17,6 +17,15 @@
       "description": "best phone",
       "category": "smartphone",
       "id": 4
+    },
+    {
+      "images": "https://i.dummyjson.com/data/products/53/thumbnail.jpg",
+      "p_name": "T-shirt",
+      "price": "70",
+      "rating": "4.5",
+      "description": "best tshirt",
+      "category": "fashion",
+      "id": 5
     }
   ]
 }

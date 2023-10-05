@@ -22,8 +22,8 @@ function ViewProducts() {
 
     }
 
-    const handleEdit = async (id,data) => {
-        await dispatch(singleproAsync(id,data));
+    const handleEdit = async (id) => {
+        await dispatch(singleproAsync(id));
         navigate(`/editproducts/:${id}`);
     }
 

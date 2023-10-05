@@ -10,7 +10,7 @@ function Editproducts() {
     const navigate = useNavigate();
 
     const {product} = useSelector(state => state);
-    console.log(product,"product");
+    // console.log(product,"product");
 
 
     const [inputList, setInputList] = useState(product);

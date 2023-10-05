@@ -31,10 +31,10 @@ const all_products = (data) => {
     }
 }
 
-export const singleproAsync = (id,data) => {
+export const singleproAsync = (id) => {
     return dispatch => {
-        axios.get(base_api + `/Products/${id}`, data).then((res)=>{
-            console.log(res,"<<<<res");
+        axios.get(base_api + `/Products/${id}`).then((res)=>{
+            // console.log(res.data,"<<<<res");
             dispatch(singlepro(res.data));
 
         }).catch((err) => {
@@ -54,7 +54,7 @@ const singlepro = (data) => {
 export const pro_updateAsync = (id,data) => {
     return dispatch => {
         axios.patch(base_api + `/Products/${id}`, data).then((res) => {
-            console.log("Res",res.data);
+            // console.log("Res",res.data);
             dispatch(get_all_proAsync(res.data));
 
         }).catch((err) => {
