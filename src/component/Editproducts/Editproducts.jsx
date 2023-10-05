@@ -9,7 +9,7 @@ function Editproducts() {
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
-    const {product} = useSelector(state => state);
+    const product = useSelector(state => state.product);
     // console.log(product,"product");
 
 
