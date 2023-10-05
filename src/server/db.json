@@ -1,0 +1,22 @@
+{
+  "Products": [
+    {
+      "images": "https://i.dummyjson.com/data/products/15/thumbnail.jpg",
+      "p_name": "Vera Wang",
+      "price": "100",
+      "rating": "4.3",
+      "description": "best perfume",
+      "category": "perfume",
+      "id": 3
+    },
+    {
+      "images": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "p_name": "I phone 9",
+      "price": "125",
+      "rating": "4.3",
+      "description": "best phone",
+      "category": "smartphone",
+      "id": 4
+    }
+  ]
+}
