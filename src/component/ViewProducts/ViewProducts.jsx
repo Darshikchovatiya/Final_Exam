@@ -56,7 +56,7 @@ function ViewProducts() {
                                         <tr>
                                             <td>
                                                 <div style={{width: "100px", height: "100px"}}>
-                                                    <img src={pro_d.images} alt="img" style={{width: "100%", height: "100%"}} />
+                                                    <img src={pro_d.images} alt="img" style={{width: "100%", height: "100%", objectFit: "cover"}} />
                                                 </div>
                                             </td>
                                             <td>{pro_d.p_name}</td>
